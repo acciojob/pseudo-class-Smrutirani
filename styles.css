@@ -2,15 +2,16 @@
 #container{
 	margin:20px;
 }
-p::before{
+#container ::before, #container ::after{
 /* 	color:#f00; */
 	color: red;
 	content: " Before Element ";
 	font-size: 20px;
 }
-p::after{
-/* 	color:#f00; */
+/* p::after{
+	color:#f00;
 	color: red;
 	content: " After Element ";
 	font-size: 20px;
 }
+ */
