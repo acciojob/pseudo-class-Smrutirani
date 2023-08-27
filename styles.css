@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 #container{
 	margin:20px;
+	color:black;
 }
 #container ::before, #container ::after{
 /* 	color:#f00; */
