@@ -4,13 +4,13 @@
 }
 p::before{
 /* 	color:#f00; */
-	color: rgb(255, 0, 0);
+	color: red;
 	content: " Before Element ";
 	font-size: 20px;
 }
 p::after{
 /* 	color:#f00; */
-	color: rgb(255, 0, 0);
+	color: red;
 	content: " After Element ";
 	font-size: 20px;
 }
