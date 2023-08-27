@@ -2,7 +2,17 @@
 #container{
 	margin:20px;
 }
-p:first-child strong{
+/* p:first-child strong{
+	color:#f00;
+	font-size:20px;
+} */
+p::before{
+ content: "Before Element";
+	color:#f00;
+	font-size:20px;
+}
+p::after{
+ content: "After Element";
 	color:#f00;
 	font-size:20px;
 }
